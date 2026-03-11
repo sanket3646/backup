@@ -1,5 +1,5 @@
 export async function analyzeSymptoms(symptom) {
-  const res = await fetch("https://abhimanyu-backend.onrender.com/", {
+  const res = await fetch("http://localhost:3001/analyze", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
