@@ -1,0 +1,42 @@
+export const hospitals = [
+  {
+    id: 1,
+    name: "City General Hospital",
+    specialization: "Cardiology",
+    location: "Mumbai",
+    rating: 4.5,
+    queue: 8,
+  },
+  {
+    id: 2,
+    name: "Metro Heart Institute",
+    specialization: "Cardiology",
+    location: "Pune",
+    rating: 4.7,
+    queue: 4,
+  },
+  {
+    id: 3,
+    name: "National Neuro Center",
+    specialization: "Neurology",
+    location: "Delhi",
+    rating: 4.6,
+    queue: 6,
+  },
+  {
+    id: 4,
+    name: "Orthopedic Care Hospital",
+    specialization: "Orthopedics",
+    location: "Bangalore",
+    rating: 4.4,
+    queue: 10,
+  },
+  {
+    id: 5,
+    name: "Government Medical College Hospital",
+    specialization: "General Medicine",
+    location: "Chennai",
+    rating: 4.2,
+    queue: 12,
+  },
+];
